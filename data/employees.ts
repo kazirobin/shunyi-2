@@ -1,0 +1,6 @@
+export const employees = [
+  { id:"EMP-1001", name:"Rahim Uddin", photo:"", email:"", gender:"", bloodGroup:"", nid:"", address:"", dailyRate:0, employmentType:"Permanent", sortOrder:0, grade:"Grade A", phone:"01700000001", department:"Sewing", designation:"Line Supervisor", salary:22000, joiningDate:"2023-04-10", status:"Active", notes:"" },
+  { id:"EMP-1002", name:"Nusrat Jahan", photo:"", email:"", gender:"", bloodGroup:"", nid:"", address:"", dailyRate:0, employmentType:"Permanent", sortOrder:1, grade:"Grade B", phone:"01700000002", department:"Quality", designation:"QC Inspector", salary:18000, joiningDate:"2024-01-15", status:"Active", notes:"" },
+  { id:"EMP-1003", name:"Hasan Mahmud", photo:"", email:"", gender:"", bloodGroup:"", nid:"", address:"", dailyRate:0, employmentType:"Permanent", sortOrder:2, grade:"Grade C", phone:"01700000003", department:"Cutting", designation:"Cutting Operator", salary:15500, joiningDate:"2024-06-01", status:"On leave", notes:"" },
+  { id:"EMP-1004", name:"Mina Akter", photo:"", email:"", gender:"", bloodGroup:"", nid:"", address:"", dailyRate:0, employmentType:"Permanent", sortOrder:3, grade:"Grade A", phone:"01700000004", department:"Finishing", designation:"Team Leader", salary:20000, joiningDate:"2022-11-20", status:"Active", notes:"" }
+];

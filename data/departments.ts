@@ -1,0 +1,6 @@
+export const departments = [
+  {id:"DEP-01",name:"Cutting",manager:"Md. Kamal",employees:85,description:"Fabric spreading and cutting"},
+  {id:"DEP-02",name:"Sewing",manager:"Rahim Uddin",employees:720,description:"Garment assembly and stitching"},
+  {id:"DEP-03",name:"Finishing",manager:"Mina Akter",employees:160,description:"Finishing, ironing and packing"},
+  {id:"DEP-04",name:"Quality",manager:"Nusrat Jahan",employees:45,description:"Quality assurance and inspection"}
+];

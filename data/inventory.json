@@ -1,0 +1,62 @@
+[
+  {
+    "id": "INV-002",
+    "item": "Polyester Sewing Thread",
+    "category": "Thread",
+    "sku": "THR-PL-008",
+    "unit": "Cone",
+    "stock": 85,
+    "reorderLevel": 100,
+    "supplier": "Prime Accessories"
+  },
+  {
+    "id": "INV-001",
+    "item": "Single Jersey Fabric",
+    "category": "Fabric",
+    "sku": "FAB-SJ-001",
+    "unit": "Kg",
+    "stock": 1250,
+    "reorderLevel": 400,
+    "supplier": "Bengal Textile Mills"
+  },
+  {
+    "id": "INV-003",
+    "item": "Main Label",
+    "category": "Label",
+    "sku": "LBL-MN-002",
+    "unit": "Pcs",
+    "stock": 18000,
+    "reorderLevel": 5000,
+    "supplier": "Prime Accessories"
+  },
+  {
+    "id": "INV-001",
+    "item": "Single Jersey Fabric",
+    "category": "Fabric",
+    "sku": "FAB-SJ-001",
+    "unit": "Kg",
+    "stock": 1250,
+    "reorderLevel": 400,
+    "supplier": "Bengal Textile Mills"
+  },
+  {
+    "id": "INV-002",
+    "item": "Polyester Sewing Thread",
+    "category": "Thread",
+    "sku": "THR-PL-008",
+    "unit": "Cone",
+    "stock": 85,
+    "reorderLevel": 100,
+    "supplier": "Prime Accessories"
+  },
+  {
+    "id": "INV-003",
+    "item": "Main Label",
+    "category": "Label",
+    "sku": "LBL-MN-002",
+    "unit": "Pcs",
+    "stock": 18000,
+    "reorderLevel": 5000,
+    "supplier": "Prime Accessories"
+  }
+]

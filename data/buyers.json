@@ -1,0 +1,38 @@
+[
+  {
+    "id": "BUY-001",
+    "company": "Northstar Apparel",
+    "contact": "Oliver Smith",
+    "email": "oliver@example.com",
+    "phone": "+1 212 555 0100",
+    "country": "United States",
+    "status": "Active"
+  },
+  {
+    "id": "BUY-002",
+    "company": "Urban Thread Co.",
+    "contact": "Emily Carter",
+    "email": "emily@example.com",
+    "phone": "+44 20 5555 0101",
+    "country": "United Kingdom",
+    "status": "Active"
+  },
+  {
+    "id": "BUY-002",
+    "company": "Urban Thread Co.",
+    "contact": "Emily Carter",
+    "email": "emily@example.com",
+    "phone": "+44 20 5555 0101",
+    "country": "United Kingdom",
+    "status": "Active"
+  },
+  {
+    "id": "BUY-001",
+    "company": "Northstar Apparel",
+    "contact": "Oliver Smith",
+    "email": "oliver@example.com",
+    "phone": "+1 212 555 0100",
+    "country": "United States",
+    "status": "Active"
+  }
+]

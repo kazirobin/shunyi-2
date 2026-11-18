@@ -1,19 +1,3 @@
-import Image from "next/image";
-
-export default function Home() {
-  return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-       This is Home Page
-      </main>
-    </div>
-  );
-}
+import Link from "next/link";
+import "./public.css";
+export default function HomePage(){return <main className="public-site"><header className="public-nav"><Link href="/" className="public-brand"><span>Ｓ</span><b>SHUNYI <small>GARMENTS</small></b></Link><nav><a href="#about">About</a><a href="#products">Products</a><a href="#process">Production</a><a href="#contact">Contact</a></nav><Link className="public-login" href="/login">Admin Login ↗</Link></header><section className="public-hero"><div className="hero-copy"><span className="public-kicker">QUALITY · COMMITMENT · INNOVATION</span><h1>Crafting Quality.<br/><em>Stitching Trust.</em></h1><p>Reliable garment manufacturing built on skilled people, thoughtful processes and a commitment to quality at every stage.</p><div className="hero-actions"><a href="#products" className="hero-primary">Explore Our Products ↗</a><a href="#about" className="hero-secondary">Discover Shunyi</a></div><div className="hero-proof"><b>01 <small>Quality first</small></b><b>02 <small>Skilled workforce</small></b><b>03 <small>On-time delivery</small></b></div></div><div className="hero-image"><div className="hero-image-caption"><b>Made with precision.</b><span>From fabric to finished garments.</span></div></div></section><section id="about" className="public-section about-section"><div><span className="public-kicker">ABOUT SHUNYI</span><h2>Built on craftsmanship.<br/><em>Driven by people.</em></h2></div><p>Shunyi Garments brings together experienced teams, disciplined production practices and quality-focused manufacturing. Our goal is to build lasting partnerships by delivering garments our customers can rely on.</p></section><section id="products" className="public-section product-section"><div className="section-title"><div><span className="public-kicker">WHAT WE MAKE</span><h2>Our product range</h2></div><p>Versatile apparel, made with care<br/>for every collection.</p></div><div className="product-cards"><article className="product-card product-one"><span>01 / ESSENTIALS</span><b>T-shirts & Polos</b></article><article className="product-card product-two"><span>02 / EVERYDAY</span><b>Shirts & Hoodies</b></article><article className="product-card product-three"><span>03 / LIFESTYLE</span><b>Denim & Jackets</b></article><article className="product-card product-four"><span>04 / FAMILY</span><b>Kidswear</b></article></div></section><section id="process" className="public-section process-section"><span className="public-kicker">HOW WE WORK</span><h2>Every stitch has a purpose.</h2><div className="process-grid">{[["01","Fabric selection","Material sourcing and careful inspection."],["02","Manufacturing","Cutting, sewing and skilled workmanship."],["03","Quality inspection","Checks throughout the production process."],["04","Finishing & delivery","Finishing, packing and reliable dispatch."]].map(([n,t,d])=><article key={n}><span>{n}</span><h3>{t}</h3><p>{d}</p></article>)}</div></section><section className="public-values"><div><span className="public-kicker">WHY SHUNYI</span><h2>Partnership you can count on.</h2></div><div className="value-list"><p><b>Quality-led production</b><span>Careful attention at every stage.</span></p><p><b>Reliable delivery</b><span>Clear planning and responsible execution.</span></p><p><b>People and progress</b><span>Skilled teams and continuous improvement.</span></p></div></section><section id="contact" className="public-contact"><div><span className="public-kicker">LET’S WORK TOGETHER</span><h2>Have a collection in mind?</h2><p>Talk to our team about your next garment project or business partnership.</p></div><a href="mailto:info@shunyigarments.com">Start a conversation ↗</a></section><footer className="public-footer"><Link href="/" className="public-brand"><span>Ｓ</span><b>SHUNYI <small>GARMENTS</small></b></Link><p>Crafting quality. Stitching trust.</p><small>© {new Date().getFullYear()} Shunyi Garments. All rights reserved.</small></footer></main>}
